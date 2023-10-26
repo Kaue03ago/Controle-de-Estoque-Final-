@@ -1,15 +1,15 @@
 # Controle-de-Estoque-Final-
 
 Controle de Estoque
-Projeto de Estrutura de dados - Prof. Mário Augusto de Souza Liziér
+Projeto de Estrutura de dados 
 
 ---------------------------------------------------------------------------------------------------------------
 
-# O projeto prático em grupo consiste na implementação de uma aplicação que utilize pelo menos duas estruturas de dados lineares implementadas, respeitando ao máximo o conceito de TAD.
+# O projeto prático consiste na implementação de uma aplicação que utilize pelo menos duas estruturas de dados lineares implementadas, respeitando ao máximo o conceito de TAD.
 
 °Lista: alocação dinâmica, duplamente encadeada, com sentinela e circular.
 
-°Pilha: alocaçao estática.
+°Pilha: alocaçao estática, alocação dinâmica.
 
 
 # Sobre o projeto

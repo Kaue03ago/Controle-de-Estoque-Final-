@@ -3,16 +3,6 @@
 Controle de Estoque
 Projeto de Estrutura de dados - Prof. Mário Augusto de Souza Liziér
 
-Integrantes do Grupo:
-
-Guilherme Fernades Rezende Santos RA: 813467
-
-Kaue Almeida Gonçalves de Oliveira RA: 813939
-
-Lucas Lima Felix da Silva RA: 814131
-
-Mateus Tsuyoshi Matsuo Hashimoto RA: 813500
-
 ---------------------------------------------------------------------------------------------------------------
 
 # O projeto prático em grupo consiste na implementação de uma aplicação que utilize pelo menos duas estruturas de dados lineares implementadas, respeitando ao máximo o conceito de TAD.

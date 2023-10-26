@@ -1,13 +1,15 @@
 #ifndef LISTA_H
 #define LISTA_H
+
 #include "pilha.h"
-#define MAX 10
+
+#define MAX_LISTA 10
+
 typedef Pilha P;
 
-// Pallet
 struct node {
   struct node *proximo, *anterior;
-  P data; // data acessa a struct pilha
+  P data;
 };
 
 typedef struct Lista {
@@ -15,8 +17,14 @@ typedef struct Lista {
   int qtd;
 } Lista;
 
+void inicializa_lista(Lista *l);
+
+int vazia_lista(Lista *l);
+void getLVazia (Lista *l);
 void insere_lista(Lista *l);
 struct node* remove_lista(struct node *l);
-void inicializar_lista(Lista *l);
+
+void retira_lista(Lista *l);
+void destroi_lista(Lista *l);
 
 #endif

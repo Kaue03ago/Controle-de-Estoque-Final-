@@ -36,3 +36,31 @@ struct node* remove_lista(struct node *l) {
   return l;  //retorna o novo endereco
 }
 
+int vazia(Lista *l) {
+  if(l->qtd == 0) {
+    return 1;
+  }
+
+  else {
+    return 0;
+  }
+}
+
+void destroi(Lista *l) {
+  while(vazia(l) != 1) {
+    retira(l);
+  }
+  free(l->sentinela);
+}
+
+void retira(Lista *l) {
+  struct node *n = (struct node*) malloc(sizeof(struct node));
+  n = l->sentinela->proximo;
+
+  if(n != l->sentinela) {
+    n->proximo->anterior = n->anterior;
+    n->anterior->proximo = n->proximo;
+    free(n);
+    l->qtd--;
+  }
+}

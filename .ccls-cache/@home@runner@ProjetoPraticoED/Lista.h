@@ -18,5 +18,8 @@ typedef struct Lista {
 void insere_lista(Lista *l);
 struct node* remove_lista(struct node *l);
 void inicializar_lista(Lista *l);
+int vazia(Lista *l);
+void destroi(Lista *l);
+void retira(Lista *l);
 
 #endif
